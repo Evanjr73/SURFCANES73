@@ -1,0 +1,219 @@
+#separa {
+  margin-top: 0px;
+  height: 30px;
+  width: 100%;
+  background-color: rgba(247, 247, 247, 0.927);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  height: 2.7rem;
+  width: 100vw;
+  background-color: rgba(247, 247, 247, 0.927);
+  padding-right: 10px;
+  border: solid 0px;
+}
+
+#imgg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(195, 195, 195);
+  background-image: url(imagens/fundologo.png);
+  background-size: 100%;
+  font-size: 16px;
+
+}
+
+
+@keyframes rodar {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#containerlogo {
+  height: 250px;
+  width: 250px;
+
+  /* background-color: black; */
+
+}
+
+#logo {
+  width: 50vw;
+
+
+  border-radius: 75%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+
+}
+
+#logo:hover {
+
+
+  width: 50vw;
+
+  border-radius: 75%;
+  animation: rodar 3s alternate-reverse;
+
+}
+
+
+
+details {
+  cursor: pointer;
+  color: rgb(209, 250, 0);
+  border: solid rgb(253, 241, 7);
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+details:hover {
+  transition: 0.2s;
+  padding: 5px;
+  cursor: pointer;
+  color: rgb(209, 250, 0);
+  border: solid rgba(230, 229, 206, 0.57);
+  font-size: 19px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+.contatos {
+  height: 30px;
+  width: 30px;
+}
+
+
+#containertextimg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  /* height: 55%;
+    width: 35%;
+    background-color: white;
+    margin-left: 15rem; */
+  height: 450px;
+  width: 350px;
+  display: inline-flex;
+  border: solid 0px;
+
+  /* justify-content: flex-end; */
+  /* align-items: flex-start; */
+  gap: 20px;
+
+}
+
+.logoText {
+  transition: 0.5s;
+}
+
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 166, 255);
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 2);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid rgb(0, 149, 255);
+  /* creates padding around scroll thumb */
+}
+
+#grid {
+  padding-top: 5vh;
+  display: grid;
+
+  justify-items: center;
+  gap: 1px;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+
+.card {
+  height: 20vh;
+  width: 40vw;
+  background-color: blue;
+  margin: 1vh;
+
+  border-radius: 4px;
+}
+
+.card:hover {
+  height: 21vh;
+  width: 42vw;
+  background-color: blue;
+  border: solid;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  margin-top: 60px;
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+/* @media only screen and (max-width: 377px) {
+  #grid {
+    display: grid;
+
+    justify-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr)
+  }
+
+  .card {
+    height: 150px;
+    width: 190px;
+    background-color: blue;
+
+    border-radius: 4px;
+  }
+
+  .card:hover {
+    height: 50px;
+    width: 90px;
+    background-color: blue;
+    border: solid;
+    border-radius: 4px;
+    transition: 0.2s;
+  }
+} */

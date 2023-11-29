@@ -1,0 +1,26 @@
+
+
+
+#containernomes{
+    display: flex;
+    margin-top: 3vh;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px;
+    padding: 10px;
+
+    height: 22vh;
+    width: 200vw;
+    background-color: rgb(29, 139, 236);
+
+
+    
+}
+.nomes{
+    background-color: blueviolet;
+    display: flex;
+    height: 20vh;
+    width: 60vw;
+    border-radius: 50%;
+
+}
