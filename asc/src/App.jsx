@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Carde from '.\\carde'
+import Carde from "./carde"
 import Rolagem from './rolagem'
 // import logo from 'D:\\DEV\\PROJETOS\\pprojetoloja\\lojavirtual\\src\\imagens\\Untitled.jpg'
 import instagram from './imagens/instagram.png'
