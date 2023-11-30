@@ -64,6 +64,10 @@ function Home() {
             <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start" , overflow:"scroll" }}>
                 <Rolagem></Rolagem>
             </div>
+            <div style={{ display:"flex" , flexDirection:"column", alignItems:"center" ,justifyContent:"center" , color:"black" , marginTop:"5vh" ,boxShadow:""}}>
+                <h2>PAGINAS</h2>
+                
+                </div>
             <div id='grid'>
                 {/* <a href="" className='link_card'><div className='card'>
           
