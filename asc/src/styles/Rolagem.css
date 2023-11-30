@@ -7,13 +7,13 @@
     flex-direction: row;
     
    
-    gap: 10px;
+    gap: 40px;
     padding: 10px;
 
-    height: 50vh;
+    height: 42vh;
     min-width: 680vw;
- 
-    background-color: rgb(29, 139, 236);
+    padding: 20px; 
+    background-color: rgb(255, 255, 255);
 
 
     
@@ -22,6 +22,7 @@
     background-color: blueviolet;
     display: flex;
     height: 20vh;
+    
     width: 60vw;
     
 
@@ -30,4 +31,5 @@
 
    
     height:10%;
+    
 }
