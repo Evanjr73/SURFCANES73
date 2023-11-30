@@ -48,8 +48,7 @@ function Home() {
                         <ul className='logoText'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui non amet
                                 molestiae dolores quidem nemo nihil ipsum necessitatibus laborum neque
-                                rem labore dolorum incidunt consectetur ducimus aspernatur, blanditiis
-                                maiores similique. Lorem ipsum dolor sit, amet consectetur adipisicing
+                                
                             </p>
                         </ul>
                     </details>

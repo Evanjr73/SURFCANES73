@@ -6,17 +6,22 @@
   
 
   margin-top: 0px;
-  height: 30px;
+  height: 50px;
   width: 100%;
   background-color: rgba(247, 247, 247, 0.927);
 }
 .butonsepara{
   background-color: rgb(41, 222, 222);
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   
   color: black;
   
   width: 48vw;
-  height: 3vh;
+  height: 5vh;
   
 }
 
@@ -31,6 +36,7 @@ main {
   background-color: rgba(247, 247, 247, 0.927);
   padding-right: 10px;
   border: solid 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #imgg {
@@ -164,7 +170,7 @@ body::-webkit-scrollbar-thumb {
 
   justify-items: center;
   gap: 1px;
-  grid-template-columns: repeat(2, 23vh)
+  grid-template-columns: repeat(2, 1fr)
 }
 
 
