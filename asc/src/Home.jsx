@@ -61,7 +61,7 @@ function Home() {
 
             </div>
             <div style={{display:"flex", flexDirection:"column" , alignItems:"center" ,marginTop:"2vh" , color:"black"}}><h2>FOTOS</h2></div>
-            <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start", overflow: "scroll" }}>
+            <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start" , overflow:"scroll" }}>
                 <Rolagem></Rolagem>
             </div>
             <div id='grid'>

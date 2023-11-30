@@ -10,7 +10,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
    
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     height: 28vh;
     width: 47vw;
     background-image: url(../imagens/aulas.jpeg);
@@ -27,6 +29,7 @@
     height: 28vh;
     width: 47vw;
     background-image: url(../imagens/aulas.jpeg);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background-size: 180%;
     border: solid;
     border-radius: 4px;
@@ -38,6 +41,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
    
     height: 28vh;
     width: 47vw;
@@ -55,6 +59,7 @@
     height: 28vh;
     width: 47vw;
     background-image: url(../imagens/intermediariocompet.jpeg);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     background-size: 180%;
     border: solid;
     border-radius: 4px;
@@ -67,6 +72,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
    
     height: 28vh;
     width: 47vw;
