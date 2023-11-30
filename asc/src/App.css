@@ -76,7 +76,8 @@ main {
 
 
   border-radius: 75%;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(24, 24, 24, 0.3) 0px 19px 38px, rgba(32, 31, 31, 0.22) 0px 15px 12px;
 
 
 
