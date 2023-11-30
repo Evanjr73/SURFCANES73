@@ -158,12 +158,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 #grid {
+ 
   padding-top: 5vh;
   display: grid;
 
   justify-items: center;
   gap: 1px;
-  grid-template-columns: repeat(2, 1fr)
+  grid-template-columns: repeat(2, 23vh)
 }
 
 
