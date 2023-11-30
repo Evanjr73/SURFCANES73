@@ -1,3 +1,10 @@
+
+
+.link_card{
+    text-decoration: none;
+}
+
+
 .card {
     display: flex;
     flex-direction: column;
@@ -21,6 +28,63 @@
     width: 42vw;
     background-image: url(../imagens/aulas.jpeg);
     background-size: 180%;
+    border: solid;
+    border-radius: 4px;
+    transition: 0.2s;
+  }
+
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+   
+    height: 20vh;
+    width: 40vw;
+    background-image: url(../imagens/competmolecada.png);
+    background-size: 180%;
+    margin: 1vh;
+    
+    color: rgb(232, 119, 14);
+    font-size: medium;
+  
+    border-radius: 4px;
+  }
+  
+  .card2:hover {
+    height: 21vh;
+    width: 42vw;
+    background-image: url(../imagens/intermediariocompet.jpeg);
+    background-size: 180%;
+    border: solid;
+    border-radius: 4px;
+    transition: 0.2s;
+  }
+
+
+  .card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+   
+    height: 20vh;
+    width: 40vw;
+    background-image: url(../imagens/bodyboard.jpeg);
+    background-size: 145%;
+    margin: 1vh;
+    
+    color: rgb(232, 119, 14);
+    font-size: medium;
+  
+    border-radius: 4px;
+  }
+  
+  .card3:hover {
+    height: 21vh;
+    width: 42vw;
+    background-image: url(../imagens/bodyboard.jpeg);
+    background-size: 170%;
     border: solid;
     border-radius: 4px;
     transition: 0.2s;

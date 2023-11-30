@@ -3,7 +3,8 @@ import "../../styles/card.css"
 
 function Carde(){
     return(<>
-          <a href="" className='link_card'><div className='card'>
+          <a href="" className='link_card'><div className='card2'>
+            <h3>CAMPEONAtOS</h3>
           
           </div></a>
     

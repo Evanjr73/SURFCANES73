@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Carde from "./components/home/carde"
+import Carde2 from "./components/home/carde2"
+import Carde3 from "./components/home/carde3"
 import Rolagem from './components/home/rolagem'
 
 // import logo from 'D:\\DEV\\PROJETOS\\pprojetoloja\\lojavirtual\\src\\imagens\\Untitled.jpg'
@@ -59,6 +61,10 @@ function Home() {
                 <a href="https://docs.google.com/document/d/1usIpFTbFV1Q3VZpbfoOorzn7Yz64MAUcv_8IAEVjzak/edit?usp=sharing" target="_blank"><button style={{}} className='butonsepara'>baixar ficha de filiação </button></a>
 
             </div>
+            <div style={{display:"flex", flexDirection:"column" , alignItems:"center" ,marginTop:"5vh" , color:"black"}}><h1>FOTOS</h1></div>
+            <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start", overflow: "scroll" }}>
+                <Rolagem></Rolagem>
+            </div>
             <div id='grid'>
                 {/* <a href="" className='link_card'><div className='card'>
           
@@ -77,8 +83,8 @@ function Home() {
 
                 <Carde>
                 </Carde>
-                <Carde></Carde>
-                <Carde></Carde>
+                <Carde2></Carde2>
+                <Carde3></Carde3>
                 <Carde></Carde>
 
 
@@ -88,9 +94,7 @@ function Home() {
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2vh" }}>
                 <Historico></Historico>
             </div >
-            <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start", overflow: "scroll" }}>
-                <Rolagem></Rolagem>
-            </div>
+            
 
             <footer>
                 {/* <DownloadButton pdfUrl={pdfUrl} fileName="Estatuto-ASC.pdf" /> */}
