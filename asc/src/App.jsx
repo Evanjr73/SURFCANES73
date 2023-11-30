@@ -8,8 +8,12 @@ import whatssapp from './imagens/whatsapp.png'
 import gmail from './imagens/gmail.png'
 import logo from "./imagens/asc.png"
 import Historico from './historico'
+import DownloadButton from './DownloadButton';
+import estatuto from './pdfs/Estatuto-ASC.pdf';
 
 function App() {
+  const pdfUrl = './pdfs/Estatuto-ASC.docx';
+
 
   const [animalogo, setAnimalogo] = useState("")
 
@@ -80,12 +84,14 @@ function App() {
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2vh" }}>
         <Historico></Historico>
       </div >
-      <div style={{ display:"flex" , flexDirection:"row" , alignItems:"center", justifyContent:"start", overflow:"scroll"}}>
+      <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start", overflow: "scroll" }}>
         <Rolagem></Rolagem>
       </div>
 
       <footer>
-
+        {/* <DownloadButton pdfUrl={pdfUrl} fileName="Estatuto-ASC.pdf" /> */}
+          <a href="https://docs.google.com/document/d/1uV0Zm9YO8coWXGASIBSeUOXlvDER7hGyfHnjCXqtC70/edit?usp=sharing" target="_blank"><button style={{height:"30px", width:"30px"}}>baixar</button></a>
+          <a href="https://docs.google.com/document/d/1usIpFTbFV1Q3VZpbfoOorzn7Yz64MAUcv_8IAEVjzak/edit?usp=sharing" target="_blank"><button style={{height:"30px", width:"30px"}}>baixar</button></a>
       </footer>
     </>
   )
