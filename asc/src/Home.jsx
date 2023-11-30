@@ -60,7 +60,7 @@ function Home() {
                 <a href="https://docs.google.com/document/d/1usIpFTbFV1Q3VZpbfoOorzn7Yz64MAUcv_8IAEVjzak/edit?usp=sharing" target="_blank"><button style={{}} className='butonsepara'>baixar ficha de filiação </button></a>
 
             </div>
-            <div style={{display:"flex", flexDirection:"column" , alignItems:"center" ,marginTop:"5vh" , color:"black"}}><h1>FOTOS</h1></div>
+            <div style={{display:"flex", flexDirection:"column" , alignItems:"center" ,marginTop:"2vh" , color:"black"}}><h2>FOTOS</h2></div>
             <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start", overflow: "scroll" }}>
                 <Rolagem></Rolagem>
             </div>
