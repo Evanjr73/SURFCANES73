@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    height: 20vh;
+    width: 40vw;
+    background-image: url(../imagens/aulas.jpeg);
+    background-size: 180%;
+    margin: 1vh;
+    
+    color: rgb(232, 119, 14);
+    font-size: medium;
+  
+    border-radius: 4px;
+  }
+  
+  .card:hover {
+    height: 21vh;
+    width: 42vw;
+    background-image: url(../imagens/aulas.jpeg);
+    background-size: 180%;
+    border: solid;
+    border-radius: 4px;
+    transition: 0.2s;
+  }

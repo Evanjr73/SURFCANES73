@@ -1,5 +1,5 @@
-import imagens from "./imagens/gmail.png"
-import "./styles/Rolagem.css"
+import imagens from "../../imagens/gmail.png"
+import "../../styles/Rolagem.css"
 function Rolagem(){
     return(
         <>

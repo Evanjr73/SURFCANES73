@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./styles/Historico.css"
-import foto from "./imagens/instagram.png"
+import "../../styles/Historico.css"
+import foto from "../../imagens/instagram.png"
 
 
 

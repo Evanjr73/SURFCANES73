@@ -1,8 +1,23 @@
 #separa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+
   margin-top: 0px;
   height: 30px;
   width: 100%;
   background-color: rgba(247, 247, 247, 0.927);
+}
+.butonsepara{
+  background-color: rgb(41, 222, 222);
+  
+  color: black;
+  
+  width: 48vw;
+  height: 3vh;
+  
 }
 
 main {
@@ -152,23 +167,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.card {
-  height: 20vh;
-  width: 40vw;
-  background-color: blue;
-  margin: 1vh;
 
-  border-radius: 4px;
-}
-
-.card:hover {
-  height: 21vh;
-  width: 42vw;
-  background-color: blue;
-  border: solid;
-  border-radius: 4px;
-  transition: 0.2s;
-}
 
 footer {
   height: 200px;

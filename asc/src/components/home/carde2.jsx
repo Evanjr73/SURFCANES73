@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import "../../styles/card.css"
 
 function Carde(){
     return(<>
