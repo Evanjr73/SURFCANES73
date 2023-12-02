@@ -1,9 +1,9 @@
-import imagens from "../../imagens/gmail.png"
-import foto from '../../imagens/competmolecada.png'
 
-import setadireita from "../../imagens/seta-para-a-direita.png"
-import "../../styles/Rolagem.css"
-function Rolagem() {
+import foto from '../../src/imagens/aulas.jpeg'
+
+
+import "../../src/styles/Rolagem.css"
+function Rolagemaulas() {
     return (
         <div>
             
@@ -28,4 +28,4 @@ function Rolagem() {
     )
 }
 
-export default Rolagem
+export default Rolagemaulas
