@@ -94,9 +94,9 @@ function Home() {
 
 
             </div>
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2vh" }}>
+            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2vh" }}>
                 <Historico></Historico>
-            </div >
+            </div > */}
             
 
             <footer>
