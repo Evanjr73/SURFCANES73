@@ -39,9 +39,7 @@ function Home() {
             <div id='imgg'>
 
                 <div id='containertextimg'>
-                    {/* <div id='containerlogo'>
-            
-          </div> */}
+                 
                     <img src={logo} id='logo' style={{ animation: animalogo }} />
                     <details onClick={handledeta}>
 
@@ -69,20 +67,7 @@ function Home() {
                 
                 </div>
             <div id='grid'>
-                {/* <a href="" className='link_card'><div className='card'>
-          
-          </div></a>
-        <a href="" className='link_card'><div className='card'>
-          
-          
-          </div></a>
-        <a href="" className='link_card'><div className='card'>
-          
-          
-          </div></a>
-        <a href="" className='link_card'><div className='card'>
-          
-          </div></a> */}
+   
 
                 <Carde>
                 </Carde>
@@ -94,13 +79,14 @@ function Home() {
 
 
             </div>
-            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2vh" }}>
-                <Historico></Historico>
-            </div > */}
+         
             
 
-            <footer>
-                {/* <DownloadButton pdfUrl={pdfUrl} fileName="Estatuto-ASC.pdf" /> */}
+            <footer style={{color:"black" , }}>
+
+                <h3>CONTATOS</h3>
+                <h4>GMAIL:</h4>
+                <h5> brassociacaodesurfcanavieirense@gmail.com</h5>
 
             </footer>
         </>

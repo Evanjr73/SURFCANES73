@@ -4,12 +4,16 @@ import "../../styles/card.css"
 function Carde(){
     return(
     <>
+          {/* <a href="/nasondas" className='link_card'><div className='card'>
+            <h4>EDUCANDO</h4>
+            <h4>NAS</h4>
+            <h4>ONDAS</h4>
+          </div></a> */}
           <a href="/nasondas" className='link_card'><div className='card'>
             <h4>EDUCANDO</h4>
             <h4>NAS</h4>
             <h4>ONDAS</h4>
           </div></a>
-    
     
     </>)
 }
