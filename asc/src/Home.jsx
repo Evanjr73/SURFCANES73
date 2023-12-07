@@ -32,7 +32,7 @@ function Home() {
         <>
             <main>
 
-                <a href="" className="links"><img src={instagram} className='contatos' /></a>
+                <a href="https://www.instagram.com/_asurfcanavieirense/" className="links"><img src={instagram} className='contatos' /></a>
                 <a href="" className="links"><img src={whatssapp} className='contatos' /></a>
                 <a href="" className="links"><img src={gmail} className='contatos' id='gmail' /></a>
             </main>
