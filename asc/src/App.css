@@ -95,7 +95,7 @@ main {
 
 
 
-details {
+.detail {
   cursor: pointer;
   color: rgb(209, 250, 0);
   border: solid rgb(253, 241, 7);
@@ -103,7 +103,7 @@ details {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-details:hover {
+.detail:hover {
   transition: 0.2s;
   padding: 5px;
   cursor: pointer;
