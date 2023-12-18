@@ -39,14 +39,14 @@ function Home() {
             <div id='imgg'>
 
                 <div id='containertextimg'>
-                 
+
                     <img src={logo} id='logo' style={{ animation: animalogo }} />
                     <details onClick={handledeta}>
 
                         <ul className='logoText'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui non amet
                                 molestiae dolores quidem nemo nihil ipsum necessitatibus laborum neque
-                                
+
                             </p>
                         </ul>
                     </details>
@@ -58,16 +58,47 @@ function Home() {
                 <a href="https://docs.google.com/document/d/1usIpFTbFV1Q3VZpbfoOorzn7Yz64MAUcv_8IAEVjzak/edit?usp=sharing" target="_blank"><button style={{}} className='butonsepara'>baixar ficha de filiação </button></a>
 
             </div>
-            <div style={{display:"flex", flexDirection:"column" , alignItems:"center" ,marginTop:"2vh" , color:"black"}}><h2>FOTOS</h2></div>
-            <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start" , overflow:"scroll" }}>
+            <div style={{display:"flex",flexDirection:"column" ,alignItems:"center" , justifyContent:"center"}}>
+                <details onClick={handledeta} >
+
+                    <ul className='logoText'>
+                        <p>
+                            Introdução
+                            A prática do surf é uma atividade física que tem crescido em
+                            popularidade em todo o mundo, não só como esporte, mas também como
+                            uma ferramenta de formação humana. No Brasil, a praia de Canavieiras,
+                            com seus 13 km de costa, é ideal para a prática do surf, sendo escolhida como local de
+                            competições de surf, picos de surf treino, e aulas da escolinha de surf Educando nas
+                            Ondas.
+                            Fundada no dia 25 de julho de 2023, a associação de surf Canavieirense nasce com o
+                            objetivo de democratizar as oportunidades da prática do surf dentro e fora de Canavieiras,
+                            promovendo ações que auxiliem os atletas dessa modalidade a se manterem ativos nesse
+                            cenário esportivo, bem como, cumprir com às responsabilidades de preservação da
+                            natureza.
+                            Com o intuito de coordenar e organizar todos aspectos relacionados a prática de surf no
+                            município de Canavieiras, foram eleitos por votação o seguinte quadro de diretoria da
+                            instituição:
+                            Presidente: Juliano Fraga
+                            Vice presidente: Eduardo Messias
+                            Secretária: Eduarda Fernandes
+                            Tesoureiro: Daniel Pedreira
+                            Conselheiros Fiscais: Gustavo Souza e Daniel Amaral
+                            Suplentes: André Luiz Cassimiro e Tacyo Ribeiro
+
+                        </p>
+                    </ul>
+                </details>
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2vh", color: "black" }}><h2>FOTOS</h2></div>
+            <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start", overflow: "scroll" }}>
                 <Rolagem></Rolagem>
             </div>
-            <div style={{ display:"flex" , flexDirection:"column", alignItems:"center" ,justifyContent:"center" , color:"black" , marginTop:"5vh" ,boxShadow:""}}>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", color: "black", marginTop: "5vh", boxShadow: "" }}>
                 <h2>PAGINAS</h2>
-                
-                </div>
+
+            </div>
             <div id='grid'>
-   
+
 
                 <Carde>
                 </Carde>
@@ -79,10 +110,10 @@ function Home() {
 
 
             </div>
-         
-            
 
-            <footer style={{color:"black" , }}>
+
+
+            <footer style={{ color: "black", }}>
 
                 <h3>CONTATOS</h3>
                 <h4>GMAIL:</h4>
