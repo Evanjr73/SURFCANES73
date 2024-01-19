@@ -10,6 +10,10 @@
   width: 100%;
   background-color: rgba(247, 247, 247, 0.927);
 }
+
+#saibamais{
+  background-color: rgb(32, 172, 172);
+}
 .butonsepara{
   background-color: rgb(41, 222, 222);
   border-radius: 10px;

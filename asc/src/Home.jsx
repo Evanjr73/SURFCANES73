@@ -58,7 +58,7 @@ function Home() {
                 <a href="https://docs.google.com/document/d/1usIpFTbFV1Q3VZpbfoOorzn7Yz64MAUcv_8IAEVjzak/edit?usp=sharing" target="_blank"><button style={{}} className='butonsepara'>baixar ficha de filiação </button></a>
 
             </div>
-            <div style={{display:"flex",flexDirection:"column" ,alignItems:"center" , justifyContent:"center",backgroundColor:"blue", width:"100vw" , paddingTop:"5vh"}}>
+            <div id='saibamais'  style={{display:"flex",flexDirection:"column" ,alignItems:"center" , justifyContent:"center", width:"100vw" , paddingTop:"5vh"}}>
                 <details onClick={handledeta}  style={{color:"black", minHeight:"7vh"  }}>
 
                     <ul className='logoText' style={{fontSize:"13px", display:'flex', flexDirection:"column", alignItems:"center", justifyContent:"start", color:"black", padding:"4vw", backgroundColor:"white" , width:"90vw"}}>
