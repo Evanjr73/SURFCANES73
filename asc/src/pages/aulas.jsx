@@ -46,6 +46,13 @@ function Aulas() {
                     omnis nihil?</p>
 
             </div>
+            <div className='descricao' style={{borderRadius:"5px" , backgroundColor:"gray"}}>
+                <h1> agende sua aula </h1><br />
+            <a href="" className="links"><img src={whatssapp } className='contatos'  style={{width:"90px" , height:"90px"}}/></a>
+
+
+
+            </div >
 
 
 
