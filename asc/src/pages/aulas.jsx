@@ -11,6 +11,7 @@ function Aulas() {
 
         <div>
             <main>
+                <h2 style={{margin:"40px" , color:"black"}}>NAS ONDAS</h2>
 
                 <a href="" className="links"><img src={instagram} className='contatos' /></a>
                 <a href="" className="links"><img src={whatssapp} className='contatos' /></a>
