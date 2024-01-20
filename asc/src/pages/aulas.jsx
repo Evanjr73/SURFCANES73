@@ -27,7 +27,7 @@ function Aulas() {
                 </div>
 
             </div>
-            <div style={{display:"flex", flexDirection:"column" , alignItems:"center" , justifyContent:"center" , height:"10vh"}}>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: "10vh" }}>
                 <h1>FOTOS</h1>
             </div>
             <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start", overflow: "scroll" }}>
@@ -39,20 +39,25 @@ function Aulas() {
                 <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repreh</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitatione
                     m, quidem! Doloribus ab asperiores voluptates fuga vitae amet eum p
-                    raesentium voluptatum molestiae, hic repellat natus dolores. Vitae, 
+                    raesentium voluptatum molestiae, hic repellat natus dolores. Vitae,
                     placeat! Nisi, ipsa nobis? Lorem ipsum dolor sit amet consectetur adi
                     pisicing elit. Itaque eum ut officiis, quasi ullam nulla vero enim quide
                     m aut, quas temporibus velit amet quibusdam possimus nisi reiciendis non
-                     omnis nihil?</p>
+                    omnis nihil?</p>
 
             </div>
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2vh" }}>
-                <Historico></Historico>
-            </div >
 
-            <footer>
-                
+
+
+            <footer style={{ color: "black", }}>
+
+                <h3>CONTATOS</h3>
+                <h4>GMAIL:</h4>
+                <h5> brassociacaodesurfcanavieirense@gmail.com</h5>
+
             </footer>
+
+
 
 
 
