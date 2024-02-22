@@ -2,6 +2,7 @@ import { BrowserRouter as Router,  Routes , Route} from 'react-router-dom'
 import './App.css'
 import Home from './Home'
 import Aulas from './pages/aulas.jsx'
+import Campeonato from './pages/campeonatos.jsx'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
               <Route path="/" element= {<Home/>} />
               <Route path="/nasondas" element={<Aulas/>} />
+              <Route path="/capeonatos" element={<Campeonato/>}/>
             
             </Routes>
         </Router>

@@ -6,7 +6,7 @@ import logo from "../imagens/asc.png"
 import Rolagemaulas from './Rolagemaulas'
 import "../styles/aulas.css"
 import Historico from '../components/home/historico'
-function Aulas() {
+function Campeonatos() {
     return (
 
         <div>
@@ -76,4 +76,4 @@ function Aulas() {
     )
 }
 
-export default Aulas
+export default Campeonatos
