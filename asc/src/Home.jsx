@@ -90,11 +90,11 @@ function Home() {
                     </ul>
                 </details>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2vh", color: "black" }}><h2>FOTOS</h2></div>
+            <div  className='fotos-paginas' style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "2vh", color: "black" }}><h2>FOTOS</h2></div>
             <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "start", overflow: "scroll" }}>
                 <Rolagem></Rolagem>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", color: "black", marginTop: "5vh", boxShadow: "" }}>
+            <div className='fotos-paginas' style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", color: "black", marginTop: "5vh", boxShadow: "" }}>
                 <h2>PAGINAS</h2>
 
             </div>

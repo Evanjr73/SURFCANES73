@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tauri&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@614&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tauri&display=swap');
+
 #separa {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   
-
+  
   margin-top: 0px;
   height: 50px;
   width: 100%;
@@ -16,6 +21,12 @@
   /* background-color: rgb(32, 172, 172); */
   background-color: #76BFE2;
   animation: fadeIn 2s;
+  
+}
+.fotos-paginas{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+ 
 }
 .butonsepara{
   background-color: #76BFE2;
@@ -150,6 +161,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  
 
   /* height: 55%;
     width: 35%;
@@ -168,6 +180,9 @@ body::-webkit-scrollbar {
 
 .logoText {
   transition: 0.5s;
+  font-family: "Tauri", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 
@@ -200,6 +215,8 @@ body::-webkit-scrollbar-thumb {
 
 footer {
   display: flex;
+  
+ 
   flex-direction: column;
   align-items: center;
   justify-content: center;
