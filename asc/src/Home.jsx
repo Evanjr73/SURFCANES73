@@ -29,7 +29,7 @@ function Home() {
     }
 
     return (
-        <>
+        < >
             <main>
 
                 <a href="https://www.instagram.com/_asurfcanavieirense/" className="links"><img src={instagram} className='contatos' /></a>
@@ -59,7 +59,7 @@ function Home() {
 
             </div>
             <div id='saibamais'  style={{display:"flex",flexDirection:"column" ,alignItems:"center" , justifyContent:"center", width:"100vw" , paddingTop:"5vh"}}>
-                <details onClick={handledeta}  style={{color:"black", minHeight:"7vh"  }}>
+                <details  onClick={handledeta}  style={{color:"black", minHeight:"7vh"  }}>
 
                     <ul className='logoText' style={{fontSize:"13px", display:'flex', flexDirection:"column", alignItems:"center", justifyContent:"start", color:"black", padding:"4vw", backgroundColor:"white" , width:"90vw"}}>
                         
