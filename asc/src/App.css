@@ -254,7 +254,22 @@ footer {
   #containertextimg{
     
   }
-  
+  #imgg{
+    height: 80vh;
+  }
+  #separa{
+
+  }
+  .butonsepara{
+    width: 40vw;
+  }
+  .butonsepara:hover{
+    width: 41vw;
+    transition: 0.5s;
+    border: solid 2px white;
+    
+  }
+
 
 }
 @media only screen and (max-width: 820 ){
